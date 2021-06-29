@@ -5,7 +5,7 @@ class App extends Component {
     render() {
         return (
             <React.Fragment>
-                <img></img>
+                <img src={require("./logo.png")} alt="logo" />
                 <Container />
             </React.Fragment>
         );
